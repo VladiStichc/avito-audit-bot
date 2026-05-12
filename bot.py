@@ -7,8 +7,8 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
-API_TOKEN = os.getenv("API_TOKEN")
-ADMIN_ID = int(os.getenv("A_ADMIN_ID"))
+API_TOKEN = os.getenv("APP_API_TOKEN")
+ADMIN_ID = int(os.getenv("APP_ADMIN_ID")
 
 class Form(StatesGroup):
     business_type = State()
